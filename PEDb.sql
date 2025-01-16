@@ -55,3 +55,24 @@ Values
 ("Notorious BIG","Ready to Die",1994,"Hip-Hop","Classic"),
 ("Nas","Illmatic",1994,"Hip-Hop","One of If not the Best Album of ALL Time"),
 ("Kendrick Lamar","To Pimp a Butterfly",2015,"Hip-Hop","Best Album of the Decade and one of the Greatest of All Time. My favorite!");
+USE PEDb;
+CREATE TABLE Shows(
+title VARCHAR(50),
+release_date YEAR,
+end_date YEAR,
+review VARCHAR(100));
+INSERT INTO Shows(title,release_date,end_date,review)
+VALUES
+("Breaking Bad",2008,2013,"Top 5 Best Shows of All Time"),
+("Better Call Saul",2015,2022,"What if Breaking Bad but better writing and cinematography? Just watch it");
+INSERT INTO Shows(title,release_date,end_date,review)
+VALUES
+("Game of Thrones",2011,2019,"No comment."),
+("Avatar the Last Airbender",2005,2008,"Animated Perfection"),
+("Arcane",2021,2024,"Absolutely Beautiful, a must watch for animation enjoyers."),
+("The Last of Us",2023,NULL,"First Season was extremely good and faithful. Fingers Crossed!"),
+("Invincible",2021,NULL, "Really good and a very interesting take on superhero stories and tropes"),
+("Mr. Bean",1990,1995,"Classic, it´s Mr.Bean, need I say more?"),
+("Demon Slayer",2019,NULL,"Banger Anime, and I don´t even like anime that much!"),
+("The Good Place",2016,2020,"An amazing show —intelligent, sharp, and hilariously funny throughout.");
+
