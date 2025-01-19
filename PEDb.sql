@@ -75,4 +75,14 @@ VALUES
 ("Mr. Bean",1990,1995,"Classic, it´s Mr.Bean, need I say more?"),
 ("Demon Slayer",2019,NULL,"Banger Anime, and I don´t even like anime that much!"),
 ("The Good Place",2016,2020,"An amazing show —intelligent, sharp, and hilariously funny throughout.");
+USE PEDb;
+ALTER Table Music MODIFY review VARCHAR(200);
+INSERT INTO Music(artist,title,release_date,genre,review)
+VALUES
+("Tyler the Creator","Flower Boy",2017,"Hip-Hop","The beginning of one of the best album runs in recent history."),
+("Tyler the Creator","Igor",2019,"Hip-Hop","Amazing concept album and another step in Tyler´s Evolution."),
+("Tyler the Creator","Call Me If You Get Lost",2021,"Hip-Hop","Put this on on a nice hot summer day and just vibe. Amazing album."),
+("Tyler the Creator","Chromakopia",2024,"Hip-Hop","He can´t keep getting away with it! It alternates between banger and emocional song over and over and it´s amazing."),
+("Kendrick Lamar","GNX",2024,"Hip-Hop","'Kendrick just dropped' and it´s one of if not the best album of the year. GOAT status deserved!"),
+("Kendrick Lamar","Mr. Morale & the Big Steppers",2022,"Hip-Hop","'Such a good album. The fact it influenced other artists such as Tyler into making Chromakopia. Chef´s kiss.");
 
